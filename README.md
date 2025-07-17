@@ -32,8 +32,14 @@ This project demonstrates a comprehensive, production-grade AWS cloud infrastruc
 
 ## 🏗️ Architecture Overview
 
+**Basic Workflow**
 ![Basic workflow](./flowcharts/basic_workflow.png)
+
+**Advanced  Workflow**
 ![Advanced workflow](./flowcharts/advanced%20workflow.png)
+
+**Traffic Overflow**
+![Traffic Overflow](./flowcharts/traffic%20overflow.png)
 
 
 > **Note**: Detailed architecture diagrams and flowcharts will be added in future updates to provide visual representation of traffic flow, VPC structure, and CI/CD processes.

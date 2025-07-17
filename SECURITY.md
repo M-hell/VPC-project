@@ -3,7 +3,7 @@
 ## 📌 Table of Contents
 1. [Why VPC Is More Secure Than Non-Isolated Systems](#1-why-vpc-is-more-secure-than-non-isolated-systems)
 2. [Why Do We Need Isolation?](#2-why-do-we-need-isolation)
-3. [Vertical Scaling: When It's Better](#3-vertical-scaling-when-its-better)
+3. [Horizontal Scaling: When It's Better](#3-horizontal-scaling-when-its-better)
 4. [How My AWS Architecture Solves These Problems](#4-how-my-aws-architecture-solves-these-problems)
 
 ---
@@ -60,7 +60,7 @@ A properly configured VPC enables:
 
 ---
 
-## 3. 📈 Vertical Scaling: When It's Better
+## 3. 📈 Horizontal Scaling: When It's Better
 
 ### 🔄 Horizontal Scaling:
 - Adds **more instances**
@@ -75,14 +75,8 @@ A properly configured VPC enables:
   - Monolithic backends
   - Rapidly scaling demand without architectural overhaul
 
-### ⚖️ Pros of Vertical Scaling:
-- Easier setup (no load balancing complexity)
-- Useful when traffic spikes are rare but high
-- Simplifies deployment pipelines
-
-### 🧠 Strategy: Use vertical scaling **in combination** with auto-scaling for best results.
-
----
+### ⚖️ Pros of Horizontal Scaling:
+- Useful when traffic spikes are high and frequent
 
 ## 4. 🚀 How My AWS Architecture Solves These Problems
 

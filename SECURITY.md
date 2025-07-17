@@ -8,17 +8,6 @@
 
 ---
 
-## 🎯 Workflows 
-
-**Project Workflow**
-![Project Workflow](./flowcharts/my%20project%20workflow.png)
-
-**VPC Security Workflow**
-![VPC Security Workflow](./flowcharts//vpc%20security%20workflow.png)
-
-**Scalability Stratergy Workflow**
-![Scalability Stratergy Workflow](./flowcharts/scaling%20stratergy%20workflow.png)
-
 ## 1. ✅ Why VPC Is More Secure Than Non-Isolated Systems
 
 A **VPC (Virtual Private Cloud)** is an isolated virtual network within AWS that gives you full control over:
@@ -41,6 +30,9 @@ A **VPC (Virtual Private Cloud)** is an isolated virtual network within AWS that
 
 **VPCs reduce attack surface** by exposing only what’s necessary and isolating private resources from direct internet access.
 
+**VPC Security Workflow**
+![VPC Security Workflow](./flowcharts//vpc%20security%20workflow.png)
+
 ---
 
 ## 2. 🎯 Why Do We Need Isolation?
@@ -62,6 +54,9 @@ A properly configured VPC enables:
 
 ## 3. 📈 Horizontal Scaling: When It's Better
 
+**Scalability Stratergy Workflow**
+![Scalability Stratergy Workflow](./flowcharts/scaling%20stratergy%20workflow.png)
+
 ### 🔄 Horizontal Scaling:
 - Adds **more instances**
 - Works well for **stateless** systems like web servers or microservices
@@ -79,6 +74,9 @@ A properly configured VPC enables:
 - Useful when traffic spikes are high and frequent
 
 ## 4. 🚀 How My AWS Architecture Solves These Problems
+
+**Project Workflow**
+![Project Workflow](./flowcharts/my%20project%20workflow.png)
 
 My project integrates all modern cloud best practices, making it **more secure, scalable, and production-ready** than typical alternatives.
 

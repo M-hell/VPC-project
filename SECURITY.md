@@ -1,13 +1,5 @@
 # 🔐 SECURITY AND SCALABILITY INSIGHTS
 
-## 📌 Table of Contents
-1. [Why VPC Is More Secure Than Non-Isolated Systems](#1-why-vpc-is-more-secure-than-non-isolated-systems)
-2. [Why Do We Need Isolation?](#2-why-do-we-need-isolation)
-3. [Horizontal Scaling: When It's Better](#3-horizontal-scaling-when-its-better)
-4. [How My AWS Architecture Solves These Problems](#4-how-my-aws-architecture-solves-these-problems)
-
----
-
 ## 1. ✅ Why VPC Is More Secure Than Non-Isolated Systems
 
 A **VPC (Virtual Private Cloud)** is an isolated virtual network within AWS that gives you full control over:

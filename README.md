@@ -1,4 +1,4 @@
-# AWS Cloud Infrastructure with Automated CI/CD Pipeline
+# Virtual Private Cloud using AWS Cloud Infrastructure with Automated CI/CD Pipeline
 
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
@@ -34,26 +34,26 @@ This project demonstrates a comprehensive, production-grade AWS cloud infrastruc
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                          AWS Cloud                             │
+│                          AWS Cloud                              │
 │                                                                 │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │                Custom VPC                               │   │
-│  │                                                         │   │
-│  │  ┌─────────────────┐    ┌─────────────────┐           │   │
-│  │  │  Public Subnet  │    │  Private Subnet │           │   │
-│  │  │                 │    │                 │           │   │
-│  │  │  ┌───────────┐  │    │  ┌───────────┐  │           │   │
-│  │  │  │    ALB    │  │    │  │    EC2    │  │           │   │
-│  │  │  └───────────┘  │    │  │ Instances │  │           │   │
-│  │  │                 │    │  └───────────┘  │           │   │
-│  │  └─────────────────┘    └─────────────────┘           │   │
-│  │                                                         │   │
-│  └─────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │                Custom VPC                               │    │
+│  │                                                         │    │
+│  │  ┌─────────────────┐    ┌─────────────────┐             │    │
+│  │  │  Public Subnet  │    │  Private Subnet │             │    │
+│  │  │                 │    │                 │             │    │
+│  │  │  ┌───────────┐  │    │  ┌───────────┐  │             │    │
+│  │  │  │    ALB    │  │    │  │    EC2    │  │             │    │
+│  │  │  └───────────┘  │    │  │ Instances │  │             │    │
+│  │  │                 │    │  └───────────┘  │             │    │
+│  │  └─────────────────┘    └─────────────────┘             │    │
+│  │                                                         │    │
+│  └─────────────────────────────────────────────────────────┘    │
 │                                                                 │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │                   Amazon S3                            │   │
-│  │              Static Website Hosting                    │   │
-│  └─────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │                   Amazon S3                             │    │
+│  │              Static Website Hosting                     │    │
+│  └─────────────────────────────────────────────────────────┘    │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
                                 │

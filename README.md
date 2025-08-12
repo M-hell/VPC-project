@@ -854,7 +854,3 @@ We welcome contributions to improve this project! Please follow these guidelines
 - [AWS Samples GitHub Repository](https://github.com/aws-samples)
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License -
